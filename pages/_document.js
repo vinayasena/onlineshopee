@@ -11,7 +11,7 @@ class MyDocument extends Document {
           ></link>
           <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
-          <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+          <script src="https://kit.fontawesome.com/95ee0d00bd.js" crossorigin="anonymous"></script>
         </Head>
         <body>
           <Main />
