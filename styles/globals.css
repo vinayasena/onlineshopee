@@ -1,0 +1,65 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #f0f2f5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Container*/
+.container{
+  min-height:100vh;
+  border:1px solid #fff;
+  background-color:#fff;
+  padding: 0px
+
+}
+.row{
+  margin-right:0;
+  margin-left:0;
+}
+/* product listing */
+
+.products{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  margin:20px 0px;
+}
+.products .card {
+  margin:10px auto;
+  padding:5px;
+}
+.products .card-img-top{
+  height:300px;
+  width:100%;
+}
+.products .card-title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+}
+.products .card-text{
+  overflow:hidden;
+  height:70px;
+}
+/* Filters*/
+.input-group{
+  padding-left:17px;
+}
+/*signin */
+.signin{
+  display:flex;
+  
+  justify-content: center;
+  align-items: center;
+  height:90vh;
+}
